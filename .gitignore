@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build output and dependencies
+node_modules/
+dist/
+target/
+
+# Runtime data (incident frames, PDFs, uploads, job frames)
+storage/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and editors
+*.log
+.idea/
+.vscode/
